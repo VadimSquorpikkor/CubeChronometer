@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--android:theme="@android:style/Theme.Black.NoTitleBar"-->
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Лучшее время"
+            android:id="@+id/textView16"
+            style="@style/small_text" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/the_best_average"
+            android:id="@+id/textView17"
+            style="@style/small_text"
+            android:gravity="right" />
+
+        <TextView
+            android:text="50"
+            android:id="@+id/textView19"
+            style="@style/small_text"
+            android:gravity="left" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="5dp">
+
+        <Chronometer
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/chronometer"
+            android:textSize="50dp"
+            android:layout_weight="1"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Среднее время"
+            android:id="@+id/textView"
+            style="@style/small_text" />
+
+        <TextView
+            android:text="Заданное среднее"
+            android:textColor="@color/green"
+            style="@style/small_text"
+            android:id="@+id/textView14" />
+
+        <TextView
+            android:text="Макс. время"
+            style="@style/small_text"
+            android:id="@+id/textView15" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            style="@style/numbers"
+            android:id="@+id/textView11"
+            android:onClick="aboutAlert" />
+
+        <TextView
+            style="@style/numbers"
+            android:textColor="@color/green"
+            android:id="@+id/textView12"
+            android:text="50"
+            android:onClick="setAverageIWishAlert" />
+
+        <TextView
+            style="@style/numbers"
+            android:id="@+id/textView13"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="10dp"
+            android:layout_weight="1">
+
+            <TextView
+                style="@style/result_text"
+                android:id="@+id/textView1"
+                android:editable="false" />
+
+            <TextView
+                style="@style/result_text"
+                android:id="@+id/textView2" />
+
+            <TextView
+                style="@style/result_text"
+                android:id="@+id/textView3" />
+
+            <TextView
+                style="@style/result_text"
+                android:id="@+id/textView4" />
+
+            <TextView
+                style="@style/result_text"
+                android:id="@+id/textView5" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+                style="@style/result_text"
+                android:id="@+id/textView6" />
+
+            <TextView
+                style="@style/result_text"
+                android:id="@+id/textView7" />
+
+            <TextView
+                style="@style/result_text"
+                android:id="@+id/textView8" />
+
+            <TextView
+                style="@style/result_text"
+                android:id="@+id/textView9" />
+
+            <TextView
+                style="@style/result_text"
+                android:id="@+id/textView10" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:id="@+id/imageButton"
+        android:src="@drawable/green_but2"
+        android:layout_gravity="center_horizontal"
+        android:onClick="bigButtonClick" />
+
+</LinearLayout>

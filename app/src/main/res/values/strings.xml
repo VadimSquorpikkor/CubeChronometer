@@ -1,0 +1,15 @@
+<resources xmlns:mailto="http://schemas.android.com/tools">
+    <string name="app_name">CubeChronometer</string>
+
+    <string name="menu_about">О программе</string>
+    <string name="menu_restart">Начать сначала</string>
+    <!--<string name="menu_retry">Повторить попытку</string>
+    <string name="menu_max_att">Количество попыток</string>-->
+    <string name="menu_set_average">Задать среднее</string>
+    <string name="menu_min_time">Лучшее время</string>
+    <string name="menu_min_average_time">Лучшее среднее</string>
+    <string name="mail_address">Все баги и предложения посылаются на <a href="mailto:uniqdela@gmail.com">uniqdela@gmail.com</a></string>
+    <string name="the_best_average">Лучшее среднее время: </string>
+    <string name="about_text_title">Cube Chronometer v0.8</string>
+    <string name="about_text"></string>
+</resources>
